@@ -2,8 +2,6 @@ module github.com/cloudbase/garm-provider-gcp
 
 go 1.26.10
 
-toolchain go1.26.10
-
 require (
 	cloud.google.com/go/compute v1.54.0
 	github.com/BurntSushi/toml v1.6.0
