@@ -1,0 +1,7 @@
+# Pre-commit config for gitleaks (required by GHA security check)
+# See: https://github.com/gitleaks/gitleaks
+repos:
+  - repo: https://github.com/gitleaks/gitleaks
+    rev: ed65b65095eb699c614aa5ac058f6724539fb03f # v8.29.0
+    hooks:
+      - id: gitleaks
